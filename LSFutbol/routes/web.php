@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Competicions');
 });
+Route::get('/create', function () {
+    return view('Competicions.create');
+});
+Route::resource('/compe', 'LSFutbolController');
+
