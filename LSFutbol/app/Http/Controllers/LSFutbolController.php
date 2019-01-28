@@ -15,8 +15,18 @@ class LSFutbolController extends Controller
      */
     public function index()
     {
-        $listaCompeticions = Partit::all();
-		return view('Competicions', compact('listaCompeticions'));
+        if ($_POST['champions']) {
+            $listaCompeticions = Partit::all()->where('competicio', 'Champions')->first();
+            return view('Competicions', compact('listaCompeticions'));
+        } else if ($_POST['lliga']) {
+            $listaCompeticions = Partit::all()->where('competicio', 'Lliga')->first();
+            return view('Competicions', compact('listaCompeticions'));
+        } else if ($_POST['copadelrei']) {
+            $listaCompeticions = Partit::all()->where('competicio', 'Copa del Rei')->first();
+            return view('Competicions', compact('listaCompeticions'));
+        } else {
+            echo "No esta disponible esta opcion";
+        }
     }
 
     /**
@@ -48,7 +58,7 @@ class LSFutbolController extends Controller
      */
     public function show($id)
     {
-        //
+
     }
 
     /**

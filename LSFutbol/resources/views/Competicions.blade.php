@@ -8,12 +8,12 @@
     <h3>Competicions</h3>
 	<p>Clica els butons per obtenir més informació sobre el tema.</p>
 	<form method="get" action="Champions">
-		<button type="submit" class="btn btn-primary">Champions</button>
+		<button type="submit" class="btn btn-primary" name="champions" id="champions">Champions</button>
 	</form>
 	<form method="get" action="Lliga">
-		<button type="submit" class="btn btn-primary">Lliga</button>
+		<button type="submit" class="btn btn-primary" name="lliga" id="lliga">Lliga</button>
 	</form>
 	<form method="get" action="CopaDelRei">
-		<button type="submit" class="btn btn-primary">Copa del Rei</button>
+		<button type="submit" class="btn btn-primary" name="copadelrei" id="copadelrei">Copa del Rei</button>
 	</form>
 @endsection

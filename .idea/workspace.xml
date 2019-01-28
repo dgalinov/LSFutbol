@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bae201f-97ef-4972-bd0b-aae7c8c38bab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LSFutbol/resources/views/CopaDelRei.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LSFutbol/resources/views/Lliga.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_123647_create_partits_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_123647_create_partits_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_130802_create_equipos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_130802_create_equipos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LSFutbol/resources/views/Competicions/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LSFutbol/resources/views/Competicions/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSFutbol/app/Http/Controllers/LSFutbolController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LSFutbol/app/Http/Controllers/LSFutbolController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSFutbol/resources/views/Champions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LSFutbol/resources/views/Champions.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSFutbol/resources/views/Competicions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LSFutbol/resources/views/Competicions.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSFutbol/resources/views/CopaDelRei.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LSFutbol/resources/views/CopaDelRei.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSFutbol/resources/views/Lliga.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/LSFutbol/resources/views/Lliga.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/Competicions.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="240">
+              <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -32,40 +32,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/Champions.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LSFutbol/app/Http/Controllers/LSFutbolController.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_123647_create_partits_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="22" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_130802_create_equipos_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="330">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_28_094812_create_jugadors_table.php">
+        <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/CopaDelRei.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/Lliga.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LSFutbol/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LSFutbol/app/Http/Controllers/LSFutbolController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -75,14 +75,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/LSFutbol/.env" />
         <option value="$PROJECT_DIR$/LSFutbol/resources/views/Competicions/create.blade.php" />
-        <option value="$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_123647_create_partits_table.php" />
-        <option value="$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_130802_create_equipos_table.php" />
         <option value="$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_28_094812_create_jugadors_table.php" />
+        <option value="$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_130802_create_equipos_table.php" />
+        <option value="$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_123647_create_partits_table.php" />
+        <option value="$PROJECT_DIR$/LSFutbol/app/Http/Controllers/LSFutbolController.php" />
+        <option value="$PROJECT_DIR$/LSFutbol/resources/views/Competicions.blade.php" />
+        <option value="$PROJECT_DIR$/LSFutbol/resources/views/Champions.blade.php" />
+        <option value="$PROJECT_DIR$/LSFutbol/resources/views/Lliga.blade.php" />
+        <option value="$PROJECT_DIR$/LSFutbol/resources/views/CopaDelRei.blade.php" />
       </list>
     </option>
   </component>
@@ -209,14 +217,7 @@
               <item name="LSFutbol" type="b2602c69:ProjectViewProjectNode" />
               <item name="LSFutbol" type="462c0819:PsiDirectoryNode" />
               <item name="LSFutbol" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LSFutbol" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LSFutbol" type="462c0819:PsiDirectoryNode" />
-              <item name="LSFutbol" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LSFutbol" type="b2602c69:ProjectViewProjectNode" />
@@ -246,6 +247,12 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="LayoutCompeticions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LSFutbol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LSFutbol" type="462c0819:PsiDirectoryNode" />
+              <item name="LSFutbol" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,12 +293,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548664003197</updated>
-      <workItem from="1548664004899" duration="1706000" />
+      <workItem from="1548664004899" duration="3231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1706000" />
+    <option name="totallyTimeSpent" value="3231000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,6 +319,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Command Line Tools Console" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -331,13 +339,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LSFutbol/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/Competicions/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -345,53 +346,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/Competicions.blade.php">
+    <entry file="file://$PROJECT_DIR$/LSFutbol/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSFutbol/app/Equipo.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSFutbol/app/Partit.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/Champions.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/Lliga.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/CopaDelRei.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSFutbol/app/Http/Controllers/LSFutbolController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_130802_create_equipos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_123647_create_partits_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="22" selection-end-column="82" />
+        <state relative-caret-position="345">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_27_130802_create_equipos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LSFutbol/database/migrations/2019_01_28_094812_create_jugadors_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="345">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSFutbol/app/Partit.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSFutbol/app/Equipo.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSFutbol/app/Jugador.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSFutbol/app/Http/Controllers/LSFutbolController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/Competicions.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSFutbol/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/Champions.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/Lliga.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSFutbol/resources/views/CopaDelRei.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>

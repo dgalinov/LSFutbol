@@ -1,7 +1,7 @@
 @extends('layouts.mainlayout')
-@section('title','competicions')
+@section('title','Lliga')
 @section('cssimportados')
-    <title>Competicions</title>
+    <title>Lliga</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 @endsection
 @section('content')
@@ -21,7 +21,13 @@
 	  <tbody>
 		<tr>
 		@foreach($listaCompeticions as $competicions)
+			<th>{{$competicions->IDpartit}}</th>
+			<th>{{$competicions->IDequip_local}}</th>
+			<th>{{$competicions->golslocal}}</th>
+			<th>{{$competicions->IDequip_visitant}}</th>
+			<th>{{$competicions->golsvisitant}}</th>
 			<th>{{$competicions->competicions}}</th>
+			<th>{{$competicions->temporada}}</th>
 		@endforeach
 		</tr>
 	  </tbody>
