@@ -7,7 +7,7 @@
 	<h1>Delete</h1>
 	@foreach($listaTareas as $tarea)
 	<p>{{$tarea->titulo}}</p>
-	<form method="post" action="/todolist/{{$tarea->id}}">
+	<form method="post" action="/Competicions/{{$tarea->id}}">
 		@csrf
 		@method('delete')
 		<button type="submit" class="btn btn-primary">Delete</button>

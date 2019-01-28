@@ -7,7 +7,7 @@
 	<h1>Change It</h1>
 	@foreach($listaTareas as $tarea)
 	<p>{{$tarea->titulo}}</p>
-	<form method="post" action="/todolist/update">
+	<form method="post" action="/Competicions/update">
 		@csrf
 		<input type="text" class="btn btn-primary" name="titulo" id="titulo" placeholder="Introduce un titulo para cambiarlo...">
 		<button type="submit" class="btn btn-primary">Volver</button>
