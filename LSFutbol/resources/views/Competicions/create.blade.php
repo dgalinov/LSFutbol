@@ -10,7 +10,6 @@
         @csrf
         <div class="form-group">
 			<input type="text" class="form-control" name="equip" placeholder="Introdueix un nou equip...">
-			<input type="text"
             <input type="submit" class="btn btn-primary" value="Crear" name="insert">
         </div>
     </form>
