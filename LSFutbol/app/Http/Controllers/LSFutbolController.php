@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use LSFutbol\Partit;
 use LSFutbol\Equip;
+use LSFutbol\Jugador;
 
 class LSFutbolController extends Controller
 {
@@ -37,8 +38,12 @@ class LSFutbolController extends Controller
      */
     public function create(Request $request)
     {
-        $tarea = new Equip();
-        $tarea -> nom_equip = $request->input('nom_equip');
+        $tarea = new Partit();
+        $tarea -> temporada = $request->input('temporada');
+        $tarea -> competicio = $request->input('competicio');
+        $tarea -> golslocal = $request->input('golslocal');
+        $tarea -> golsvisitant = $request->input('golsvisitant');
+
         $result = $tarea -> save();
         if($result) {
             return view('Champions');
@@ -56,7 +61,15 @@ class LSFutbolController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $id = $request->input('IDpartit');
+        $tarea = Partit::find($id);
+        $tarea->titulo = $request->input('competicio');
+        $result = $tarea->save();
+        if($result) {
+            return view('Competicions');
+        } else {
+            return view('compe.update');
+        }
     }
 
     /**
@@ -67,7 +80,8 @@ class LSFutbolController extends Controller
      */
     public function show($id)
     {
-
+        $listaCompeticions = Partit::all();
+        return view('compe.update', compact('listaCompeticions'));
     }
 
     /**
@@ -78,7 +92,7 @@ class LSFutbolController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('compe.update');
     }
 
     /**
@@ -101,6 +115,11 @@ class LSFutbolController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $result = Partit::where('IDpartit', $id)->delete();
+        if ($result) {
+            return view('Competicions', ['IDpartit' => $id]);  //esta variable id la pasamos para pintar en la página de confirmación el id que se ha borrado.
+        } else {
+            return view('compe.delete');
+        }
     }
 }

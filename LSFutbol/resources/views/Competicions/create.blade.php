@@ -6,14 +6,13 @@
 @endsection
 @section('content')
     <h1>Crear</h1>
-    <form method="get" action="/Compe/create">
+    <form method="get" action="/compe/create">
         @csrf
         <div class="form-group">
-			<input type="text" class="form-control" name="nom_equip" placeholder="Introdueix un nou partir...">
             <input type="text" class="form-control" name="temporada" placeholder="Introdueix temporada...">
             <input type="text" class="form-control" name="golslocal" placeholder="Introdueix gols local...">
             <input type="text" class="form-control" name="golsvisitant" placeholder="Introdueix gols visitant...">
-            <select>
+            <select name="competicio">
                 <option>Champions</option>
                 <option>Lliga</option>
                 <option>Copa del Gei</option>
