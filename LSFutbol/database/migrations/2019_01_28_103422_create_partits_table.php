@@ -13,16 +13,16 @@ class CreatePartitsTable extends Migration
      */
     public function up()
     {
-        Schema::create('Partit', function (Blueprint $table) {
+        Schema::create('partits', function (Blueprint $table) {
             $table->increments('IDpartit');
-			$table->integer('temporada');
-			$table->string('competicio');
-			$table->integer('golslocal');
-			$table->integer('golsvisitant');
-			$table->integer('IDequip_local')->unsigned();
-			$table->foreign('IDequip_local')->references('IDequip')->on('Equipo');
-            $table->integer('IDequip_visitant')->unsigned();
-            $table->foreign('IDequip_visitant')->references('IDequip')->on('Equipo');
+            $table->integer('temporada');
+            $table->string('competicio');
+            $table->integer('golslocal');
+            $table->integer('golsvisitant');
+            $table->unsignedInteger('IDequip_local');
+            $table->foreign('IDequip_local')->references('IDequip')->on('equips');
+            $table->unsignedInteger('IDequip_visitant');
+            $table->foreign('IDequip_visitant')->references('IDequip')->on('equips');
             $table->timestamps();
         });
     }

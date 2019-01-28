@@ -32,5 +32,7 @@
 		</tr>
 	  </tbody>
 	</table>
-	
+	<form method="get" action="/compe">
+		<button type="submit" class="btn btn-primary">Tornar</button>
+	</form>
 @endsection

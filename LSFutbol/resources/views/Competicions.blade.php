@@ -1,4 +1,4 @@
-@extends('layouts.mainlayout')
+@extends('LayoutCompeticions.mainlayout')
 @section('title','competicions')
 @section('cssimportados')
     <title>Competicions</title>

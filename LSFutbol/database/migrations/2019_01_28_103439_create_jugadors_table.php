@@ -14,13 +14,13 @@ class CreateJugadorsTable extends Migration
     public function up()
     {
         Schema::create('jugadors', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('IDjugador');
             $table->string('nom');
             $table->string('cognom');
             $table->date('data_naixement');
             $table->integer('sou');
-            $table->integer('IDequip')->unsigned();
-            $table->foreign('IDequip')->references('IDequip')->on('Equipo');
+            $table->unsignedInteger('IDequipA');
+            $table->foreign('IDequipA')->references('IDequip')->on('equips');
             $table->timestamps();
         });
     }
