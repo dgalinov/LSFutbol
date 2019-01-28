@@ -1,4 +1,4 @@
-@extends('layouts.mainlayout')
+@extends('LayoutCompeticions.mainlayout')
 @section('title','Champions')
 @section('cssimportados')
     <title>Champions</title>
@@ -32,7 +32,7 @@
 		</tr>
 	  </tbody>
 	</table>
-	<form method="get" action="/compe">
+	<form method="get" action="/">
 		<button type="submit" class="btn btn-primary">Tornar</button>
 	</form>
 @endsection

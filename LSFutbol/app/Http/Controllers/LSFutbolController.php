@@ -5,6 +5,7 @@ namespace LSFutbol\Http\Controllers;
 use Illuminate\Http\Request;
 
 use LSFutbol\Partit;
+use LSFutbol\Equip;
 
 class LSFutbolController extends Controller
 {
@@ -15,15 +16,15 @@ class LSFutbolController extends Controller
      */
     public function index()
     {
-        if ($_POST['champions']) {
-            $listaCompeticions = Partit::all()->where('competicio', 'Champions')->first();
-            return view('Competicions', compact('listaCompeticions'));
-        } else if ($_POST['lliga']) {
-            $listaCompeticions = Partit::all()->where('competicio', 'Lliga')->first();
-            return view('Competicions', compact('listaCompeticions'));
-        } else if ($_POST['copadelrei']) {
-            $listaCompeticions = Partit::all()->where('competicio', 'Copa del Rei')->first();
-            return view('Competicions', compact('listaCompeticions'));
+        if (!empty($_GET['champions'])) {
+            $listaCompeticions = Partit::all()->where('competicio', 'Champions');
+            return view('Champions', compact('listaCompeticions'));
+        } else if (!empty($_GET['lliga'])) {
+            $listaCompeticions = Partit::all()->where('competicio', 'Lliga');
+            return view('Champions', compact('listaCompeticions'));
+        } else if (!empty($_GET['copadelrei'])) {
+            $listaCompeticions = Partit::all()->where('competicio', 'Copa del Rei');
+            return view('Champions', compact('listaCompeticions'));
         } else {
             echo "No esta disponible esta opcion";
         }
@@ -34,9 +35,17 @@ class LSFutbolController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-       //
+        $tarea = new Equip();
+        $tarea -> nom_equip = $request->input('nom_equip');
+        $result = $tarea -> save();
+        if($result) {
+            return view('Champions');
+        }
+        else {
+            return view('Competicions');
+        }
     }
 
     /**
