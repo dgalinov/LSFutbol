@@ -7,7 +7,7 @@
 	<h1>Actualitza partit</h1>
 	@foreach($listaCompeticions as $tarea)
 	<p>{{$tarea->competicio}}</p>
-	<form method="post" action="/Compe/update">
+	<form method="post" action="/compe/update">
 		@csrf
 		<input type="text" class="btn btn-primary" name="competicio" id="titulo" placeholder="Introduce un titulo para cambiarlo...">
 		<button type="submit" class="btn btn-primary">Actualitzar</button>

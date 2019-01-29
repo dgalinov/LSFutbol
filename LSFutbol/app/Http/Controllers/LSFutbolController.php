@@ -43,6 +43,8 @@ class LSFutbolController extends Controller
         $tarea -> competicio = $request->input('competicio');
         $tarea -> golslocal = $request->input('golslocal');
         $tarea -> golsvisitant = $request->input('golsvisitant');
+        $tarea -> IDequip_local = 3;
+        $tarea -> IDequip_visitant = 2;
 
         $result = $tarea -> save();
         if($result) {

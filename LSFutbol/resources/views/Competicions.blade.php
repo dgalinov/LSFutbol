@@ -19,10 +19,10 @@
 	<form method="get" action="/create">
 		<input type="submit" class="btn btn-primary" id="create" name="create" value="Create" style="margin-right:10px">
 	</form>
-	<form method="get" action="/Compe/delete">
+	<form method="get" action="/compe/delete">
 		<input type="submit" class="btn btn-primary" id="delete" name="delete" value="Delete" style="margin-right:10px">
 	</form>
-	<form method="get" action="/Compe/update">
+	<form method="get" action="/compe/update">
 		<input type="submit" class="btn btn-primary" id="update" name="update" value="Update" style="margin-right:10px">
 	</form>
 @endsection

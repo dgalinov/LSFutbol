@@ -7,7 +7,7 @@
 	<h1>Eliminar</h1>
 	@foreach($listaCompeticions as $tarea)
 	<p>{{$tarea->competicio}}</p>
-	<form method="post" action="/Competicions/{{$tarea->IDpartit}}">
+	<form method="post" action="/compe/{{$tarea->IDpartit}}">
 		@csrf
 		@method('delete')
 		<button type="submit" class="btn btn-primary">Eliminar</button>

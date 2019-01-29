@@ -33,6 +33,6 @@
 	  </tbody>
 	</table>
 	<form method="get" action="/">
-		<button type="submit" class="btn btn-primary">Tornar</button>
+		<button type="submit" class="btn btn-danger">Tornar</button>
 	</form>
 @endsection
